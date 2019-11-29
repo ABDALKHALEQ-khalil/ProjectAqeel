@@ -28,5 +28,16 @@ namespace projectAqeeel.PL
             PL.AddProduct frm = new AddProduct();
             frm.Show();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Reports.invoice frm = new Reports.invoice();
+            frm.Show();
+        }
     }
 }

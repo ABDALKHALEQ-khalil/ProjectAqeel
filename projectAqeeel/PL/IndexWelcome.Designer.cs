@@ -145,6 +145,7 @@
             this.button7.TabIndex = 0;
             this.button7.Text = "فواتير البيع ";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -222,6 +223,7 @@
             this.button13.TabIndex = 0;
             this.button13.Text = "فواتير القبض";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // IndexWelcome
             // 
