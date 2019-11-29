@@ -125,6 +125,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\invoice.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +142,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>printInvoice.rpt</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PrintInvoiceSuppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\PrintInvoiceSuppliers.Designer.cs">
+      <DependentUpon>PrintInvoiceSuppliers.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="PL\addCoustmer.resx">
       <DependentUpon>addCoustmer.cs</DependentUpon>
@@ -180,12 +192,19 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Reports\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\invoice.resx">
       <DependentUpon>invoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\printInvoice.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>printInvoice1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PrintInvoiceSuppliers.resx">
+      <DependentUpon>PrintInvoiceSuppliers.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

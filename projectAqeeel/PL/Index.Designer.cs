@@ -257,11 +257,13 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.storage1);
             this.panel2.Controls.Add(this.indexWelcome1);
             this.panel2.Controls.Add(this.employees1);
             this.panel2.Controls.Add(this.invoice1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 27);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(870, 415);
@@ -269,6 +271,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pictureBox1.Image = global::projectAqeeel.Properties.Resources.Exit;
             this.pictureBox1.Location = new System.Drawing.Point(838, 0);

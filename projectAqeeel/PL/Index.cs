@@ -47,7 +47,8 @@ namespace projectAqeeel.PL
 
         private void طباعةفاتورهToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Reports.invoice frm = new Reports.invoice();
+            frm.Show();
         }
 
         private void إدارةالفواتيرToolStripMenuItem_Click(object sender, EventArgs e)

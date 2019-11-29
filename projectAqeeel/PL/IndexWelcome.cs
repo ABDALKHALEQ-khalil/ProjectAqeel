@@ -39,5 +39,11 @@ namespace projectAqeeel.PL
             Reports.invoice frm = new Reports.invoice();
             frm.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Reports.PrintInvoiceSuppliers frm = new Reports.PrintInvoiceSuppliers();
+            frm.Show();
+        }
     }
 }

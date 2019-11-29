@@ -36,4 +36,4 @@ C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectA
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\bin\Debug\stdole.dll
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.Reports.invoice.resources
-C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.csprojResolveAssemblyReference.cache
+C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.Reports.PrintInvoiceSuppliers.resources
