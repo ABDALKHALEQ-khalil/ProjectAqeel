@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51CB6097-F564-4DD6-B170-DF179A557BAB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>projectAqeeel</RootNamespace>
+    <AssemblyName>projectAqeeel</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\Invoice.cs" />
+    <Compile Include="Code\Login.cs" />
+    <Compile Include="Code\UserInfo.cs" />
+    <Compile Include="DAL\DataAccessLayer.cs" />
+    <Compile Include="PL\addCoustmer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\addCoustmer.Designer.cs">
+      <DependentUpon>addCoustmer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\AddInvoice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\AddInvoice.Designer.cs">
+      <DependentUpon>AddInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\addsup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\addsup.Designer.cs">
+      <DependentUpon>addsup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\employeeMon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\employeeMon.Designer.cs">
+      <DependentUpon>employeeMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Employees.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\Employees.Designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\IndexWelcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\IndexWelcome.Designer.cs">
+      <DependentUpon>IndexWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Invoice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\Invoice.Designer.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Storage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\Storage.Designer.cs">
+      <DependentUpon>Storage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\addCoustmer.resx">
+      <DependentUpon>addCoustmer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\AddInvoice.resx">
+      <DependentUpon>AddInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\addsup.resx">
+      <DependentUpon>addsup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\employeeMon.resx">
+      <DependentUpon>employeeMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\IndexWelcome.resx">
+      <DependentUpon>IndexWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Invoice.resx">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Storage.resx">
+      <DependentUpon>Storage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit_blue.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
