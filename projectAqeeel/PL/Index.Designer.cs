@@ -54,11 +54,12 @@
             this.إدارةالمواردالماليةToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.storage1 = new projectAqeeel.PL.Storage();
             this.indexWelcome1 = new projectAqeeel.PL.IndexWelcome();
             this.employees1 = new projectAqeeel.PL.Employees();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.invoice1 = new projectAqeeel.PL.Invoice();
+            this.invoice2 = new projectAqeeel.PL.Invoice();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -260,27 +261,14 @@
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.invoice2);
             this.panel2.Controls.Add(this.storage1);
             this.panel2.Controls.Add(this.indexWelcome1);
             this.panel2.Controls.Add(this.employees1);
-            this.panel2.Controls.Add(this.invoice1);
             this.panel2.Location = new System.Drawing.Point(0, 27);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(870, 415);
             this.panel2.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox1.Image = global::projectAqeeel.Properties.Resources.Exit;
-            this.pictureBox1.Location = new System.Drawing.Point(838, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 24);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // storage1
             // 
@@ -307,6 +295,19 @@
             this.employees1.Size = new System.Drawing.Size(870, 415);
             this.employees1.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox1.Image = global::projectAqeeel.Properties.Resources.Exit;
+            this.pictureBox1.Location = new System.Drawing.Point(838, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 24);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // invoice1
             // 
             this.invoice1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -315,6 +316,15 @@
             this.invoice1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.invoice1.Size = new System.Drawing.Size(870, 415);
             this.invoice1.TabIndex = 0;
+            // 
+            // invoice2
+            // 
+            this.invoice2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.invoice2.Location = new System.Drawing.Point(0, 0);
+            this.invoice2.Name = "invoice2";
+            this.invoice2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.invoice2.Size = new System.Drawing.Size(870, 415);
+            this.invoice2.TabIndex = 4;
             // 
             // Index
             // 
@@ -374,5 +384,6 @@
         public IndexWelcome indexWelcome1;
         public System.Windows.Forms.ToolStripMenuItem Admin;
         private Storage storage1;
+        private Invoice invoice2;
     }
 }
