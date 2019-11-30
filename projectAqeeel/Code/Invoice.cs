@@ -72,7 +72,7 @@ namespace projectAqeeel.Code
             dal.Close();
             return dt;
         }
-        public DataTable AddInvoice(string nameCustomer , string nameGood ,int qunatity , string unitPrice , string discount )
+        public DataTable AddInvoice(string nameCustomer , string nameGood ,int qunatity , int unitPrice , int discount )
         {
             dal.Open();
             SqlParameter[] param = new SqlParameter[6];
@@ -82,15 +82,15 @@ namespace projectAqeeel.Code
 
             param[1] = new SqlParameter("@nameGoods", SqlDbType.NVarChar, 50);
             param[1].Value = nameGood;
-
+         
             param[2] = new SqlParameter("@Price", SqlDbType.Int);
-            param[2].Value = Convert.ToInt32(unitPrice);
+            param[2].Value = unitPrice;
 
             param[3] = new SqlParameter("@Quantity", SqlDbType.Int);
-            param[3].Value = Convert.ToInt32(qunatity);
+            param[3].Value = qunatity;
 
             param[4] = new SqlParameter("@Discount", SqlDbType.Int);
-            param[5].Value = discount;
+            param[4].Value =discount;
 
             param[5] = new SqlParameter("@UserName", SqlDbType.NVarChar, 50);
             param[5].Value = UserInfo.username;

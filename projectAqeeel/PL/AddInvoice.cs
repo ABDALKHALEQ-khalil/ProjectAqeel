@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace projectAqeeel.PL
 {
@@ -32,7 +33,7 @@ namespace projectAqeeel.PL
         private void button2_Click(object sender, EventArgs e)
         {
             inv.AddInvoice(textBox1.Text, comboBox1.Text,Convert.ToInt32(numericUpDown1.Value),
-                textBox2.Text, textBox4.Text );
+                int.Parse(this.textBox2.Text , CultureInfo.InvariantCulture),int.Parse( this.textBox4.Text , CultureInfo.InvariantCulture) );
         }
 
 
