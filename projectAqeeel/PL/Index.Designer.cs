@@ -59,7 +59,6 @@
             this.employees1 = new projectAqeeel.PL.Employees();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.invoice1 = new projectAqeeel.PL.Invoice();
-            this.invoice2 = new projectAqeeel.PL.Invoice();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -132,33 +131,33 @@
             // إضافةفاتورهToolStripMenuItem1
             // 
             this.إضافةفاتورهToolStripMenuItem1.Name = "إضافةفاتورهToolStripMenuItem1";
-            this.إضافةفاتورهToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
+            this.إضافةفاتورهToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.إضافةفاتورهToolStripMenuItem1.Text = "إضافة فاتوره ";
             this.إضافةفاتورهToolStripMenuItem1.Click += new System.EventHandler(this.إضافةفاتورهToolStripMenuItem1_Click);
             // 
             // تعديلفاتورهToolStripMenuItem
             // 
             this.تعديلفاتورهToolStripMenuItem.Name = "تعديلفاتورهToolStripMenuItem";
-            this.تعديلفاتورهToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.تعديلفاتورهToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.تعديلفاتورهToolStripMenuItem.Text = "تعديل فاتوره ";
             this.تعديلفاتورهToolStripMenuItem.Click += new System.EventHandler(this.تعديلفاتورهToolStripMenuItem_Click);
             // 
             // طباعةفاتورهToolStripMenuItem
             // 
             this.طباعةفاتورهToolStripMenuItem.Name = "طباعةفاتورهToolStripMenuItem";
-            this.طباعةفاتورهToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.طباعةفاتورهToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.طباعةفاتورهToolStripMenuItem.Text = "طباعة فاتوره ";
             this.طباعةفاتورهToolStripMenuItem.Click += new System.EventHandler(this.طباعةفاتورهToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(136, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // إدارةالفواتيرToolStripMenuItem
             // 
             this.إدارةالفواتيرToolStripMenuItem.Name = "إدارةالفواتيرToolStripMenuItem";
-            this.إدارةالفواتيرToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.إدارةالفواتيرToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.إدارةالفواتيرToolStripMenuItem.Text = "إدارة الفواتير";
             this.إدارةالفواتيرToolStripMenuItem.Click += new System.EventHandler(this.إدارةالفواتيرToolStripMenuItem_Click);
             // 
@@ -261,7 +260,7 @@
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Controls.Add(this.invoice2);
+            this.panel2.Controls.Add(this.invoice1);
             this.panel2.Controls.Add(this.storage1);
             this.panel2.Controls.Add(this.indexWelcome1);
             this.panel2.Controls.Add(this.employees1);
@@ -315,16 +314,7 @@
             this.invoice1.Name = "invoice1";
             this.invoice1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.invoice1.Size = new System.Drawing.Size(870, 415);
-            this.invoice1.TabIndex = 0;
-            // 
-            // invoice2
-            // 
-            this.invoice2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.invoice2.Location = new System.Drawing.Point(0, 0);
-            this.invoice2.Name = "invoice2";
-            this.invoice2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.invoice2.Size = new System.Drawing.Size(870, 415);
-            this.invoice2.TabIndex = 4;
+            this.invoice1.TabIndex = 4;
             // 
             // Index
             // 
@@ -375,7 +365,7 @@
         private System.Windows.Forms.ToolStripMenuItem إدارةالمواردالماليةToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private Invoice invoice1;
+       
         private System.Windows.Forms.PictureBox pictureBox1;
         private Employees employees1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
@@ -384,6 +374,6 @@
         public IndexWelcome indexWelcome1;
         public System.Windows.Forms.ToolStripMenuItem Admin;
         private Storage storage1;
-        private Invoice invoice2;
+        private Invoice invoice1;
     }
 }

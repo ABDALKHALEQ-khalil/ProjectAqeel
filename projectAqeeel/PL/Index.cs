@@ -36,7 +36,7 @@ namespace projectAqeeel.PL
 
         private void إضافةفاتورهToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            invoice2.BringToFront();
+            invoice1.BringToFront();
         }
 
         private void تعديلفاتورهToolStripMenuItem_Click(object sender, EventArgs e)

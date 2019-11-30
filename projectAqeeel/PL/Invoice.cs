@@ -28,6 +28,7 @@ namespace projectAqeeel.PL
         private void button3_Click(object sender, EventArgs e)
         {
             panel1.Enabled = true;
+            addInvoice3.textBox1.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -35,6 +36,17 @@ namespace projectAqeeel.PL
             DataTable dt = new DataTable();
             dt=invoice.SearchCustomer(textBox1.Text);
             this.dataGridView1.DataSource = dt;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            addCoustmer frm = new addCoustmer();
+            frm.Show();
+        }
+
+        private void addInvoice3_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

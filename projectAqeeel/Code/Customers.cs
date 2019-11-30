@@ -39,8 +39,18 @@ namespace projectAqeeel.Code
 
             param[0] = new SqlParameter("@userName", SqlDbType.NVarChar, 50);
             param[0].Value = name;
+
             DataTable dt = new DataTable();
             dt = dal.SelectData("CustomerIsher", param);
+            dal.Close();
+            return dt;
+
+        }
+        public DataTable CustomerIsHere()
+        {
+            dal.Open();
+            DataTable dt = new DataTable();
+            dt = dal.SelectData("CustomerIsher", null);
             dal.Close();
             return dt;
 

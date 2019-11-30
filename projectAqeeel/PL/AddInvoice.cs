@@ -21,6 +21,7 @@ namespace projectAqeeel.PL
             InitializeComponent();
             
             this.comboBox1.DataSource = inv.GetAllNameGoods(); ;
+           
             this.comboBox1.DisplayMember = "name";
             textBox4.Text = "0";
         }
@@ -38,9 +39,11 @@ namespace projectAqeeel.PL
         {
             try
             {
-                inv.AddInvoice(comboBox2.Text, comboBox1.Text, Convert.ToInt32(numericUpDown1.Value),
+                inv.AddInvoice(textBox1.Text, comboBox1.Text, Convert.ToInt32(numericUpDown1.Value),
             int.Parse(this.textBox2.Text, CultureInfo.InvariantCulture)
             , int.Parse(this.textBox4.Text, CultureInfo.InvariantCulture));
+                MessageBox.Show("Add Successfully");
+                
             }
             catch(Exception x)
             {
@@ -68,7 +71,17 @@ namespace projectAqeeel.PL
 
         private void comboBox2_TextChanged(object sender, EventArgs e)
         {
-            this.comboBox2.DataSource = cus.CustomerIsHere(comboBox2.Text);
+           
+        }
+
+        private void comboBox1_TextUpdate(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
