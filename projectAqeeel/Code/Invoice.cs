@@ -24,6 +24,8 @@ namespace projectAqeeel.Code
             dal.Close();
             return dt;
         }
+        
+
         public DataTable SearchCustomer(string name)
         {
             dal.Open();

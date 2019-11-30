@@ -12,6 +12,7 @@ namespace projectAqeeel.PL
 {
     public partial class addCoustmer : Form
     {
+        Code.Customers Cus = new Code.Customers();
         public addCoustmer()
         {
             InitializeComponent();
@@ -20,6 +21,12 @@ namespace projectAqeeel.PL
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Cus.CustomerIsHere(textBox1.Text);
+            Cus.addCustomer(textBox1.Text,Double.Parse(maskedTextBox1.Text), textBox3.Text);   
         }
     }
 }

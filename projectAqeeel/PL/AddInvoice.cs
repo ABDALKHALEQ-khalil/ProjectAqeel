@@ -14,11 +14,15 @@ namespace projectAqeeel.PL
     public partial class AddInvoice : UserControl
     {
         Code.Invoice inv = new Code.Invoice();
+        Code.Customers cus = new Code.Customers();
+
         public AddInvoice()
         {
             InitializeComponent();
+            
             this.comboBox1.DataSource = inv.GetAllNameGoods(); ;
             this.comboBox1.DisplayMember = "name";
+            textBox4.Text = "0";
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -32,8 +36,17 @@ namespace projectAqeeel.PL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            inv.AddInvoice(textBox1.Text, comboBox1.Text,Convert.ToInt32(numericUpDown1.Value),
-                int.Parse(this.textBox2.Text , CultureInfo.InvariantCulture),int.Parse( this.textBox4.Text , CultureInfo.InvariantCulture) );
+            try
+            {
+                inv.AddInvoice(comboBox2.Text, comboBox1.Text, Convert.ToInt32(numericUpDown1.Value),
+            int.Parse(this.textBox2.Text, CultureInfo.InvariantCulture)
+            , int.Parse(this.textBox4.Text, CultureInfo.InvariantCulture));
+            }
+            catch(Exception x)
+            {
+                MessageBox.Show(x.Message);
+            }
+        
         }
 
 
@@ -44,5 +57,18 @@ namespace projectAqeeel.PL
             textBox3.Text = Convert.ToString(Convert.ToInt32(comboBox1.SelectedValue) * x);
         }
 
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+        }
+
+        private void comboBox2_TextChanged(object sender, EventArgs e)
+        {
+            this.comboBox2.DataSource = cus.CustomerIsHere(comboBox2.Text);
+        }
     }
 }

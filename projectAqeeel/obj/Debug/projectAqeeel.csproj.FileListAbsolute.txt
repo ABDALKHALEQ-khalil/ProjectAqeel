@@ -37,4 +37,3 @@ C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectA
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.csproj.GenerateResource.Cache
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.exe
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.pdb
-C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.csprojResolveAssemblyReference.cache
