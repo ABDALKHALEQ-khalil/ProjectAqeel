@@ -77,7 +77,9 @@ namespace projectAqeeel.PL
 
         private void اضافةمنتجToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            invoice1.label1.Text = "اسم المورد ";
+            invoice1.label1.Text = "اسم المورد :";
+            invoice1.button4.Text = "إضافة مورد ";
+            Invoice.type = true;
             invoice1.BringToFront();
         }
 

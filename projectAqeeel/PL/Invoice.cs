@@ -14,25 +14,33 @@ namespace projectAqeeel.PL
     public partial class Invoice : UserControl
     {
         Code.Invoice invoice = new Code.Invoice();
+        public static bool type = false;
         public Invoice()
         {
             InitializeComponent();
-            
+
         }
 
         private void Invoice_Load(object sender, EventArgs e)
         {
-           // panel1.Enabled = false;
+            // panel1.Enabled = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             //panel1.Enabled = true;
             //addInvoice3.textBox1.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            if (!type)
+            {
+                ForInvoice FI = new ForInvoice();
 
-            ForInvoice FI = new ForInvoice();
+                FI.Show();
+            }
+            else
+            {
+                
+            }
 
-            FI.Show();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -49,25 +57,20 @@ namespace projectAqeeel.PL
             }
         }
 
-        public void datagrid (bool type )
+       
+        private void button4_Click(object sender, EventArgs e)
         {
-            if (type  )
+            if (!type)
             {
-                this.dataGridView1.DataSource = invoice.GetAllCustomer();
-
+                addCoustmer frm = new addCoustmer();
+                frm.Show();
             }
             else
             {
-                // this.dataGridView1.DataSource = invoice.
+                addSupplaers frm = new addSupplaers();
+                frm.Show();
             }
 
-        }
-        private void button4_Click(object sender, EventArgs e)
-        {
-            addCoustmer frm = new addCoustmer();
-            frm.Show();
-            
-            
         }
 
         private void addInvoice3_Load(object sender, EventArgs e)

@@ -122,3 +122,4 @@ C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectA
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.managesells.resources
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.manageEmployees.resources
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.managematrialmony.resources
+C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.addSupplaers.resources

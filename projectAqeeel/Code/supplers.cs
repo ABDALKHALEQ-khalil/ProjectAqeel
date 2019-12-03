@@ -45,6 +45,30 @@ namespace projectAqeeel.Code
             return dt;
         }
 
+        public void AddSupplaers(string name , string cat , int phone , string address , string email)
+        {
+            dal.Open();
+
+            SqlParameter[] param = new SqlParameter[5];
+            param[0] = new SqlParameter("@name", SqlDbType.NVarChar, 50);
+            param[0].Value = name;
+
+            param[1] = new SqlParameter("@catogry", SqlDbType.NVarChar, 50);
+            param[1].Value = cat;
+
+            param[2] = new SqlParameter("@phone", SqlDbType.Int);
+            param[2].Value = phone;
+
+            param[3] = new SqlParameter("@address", SqlDbType.NVarChar, 50);
+            param[3].Value = address;
+
+            param[4] = new SqlParameter("@email", SqlDbType.NVarChar, 100);
+            param[4].Value = email;
+
+            dal.ExecuteCommand("AddSupplaers", param);
+            dal.Close();
+        }
+
 
 
     }

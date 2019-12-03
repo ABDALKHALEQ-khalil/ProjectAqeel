@@ -84,6 +84,12 @@
     <Compile Include="PL\addsup.Designer.cs">
       <DependentUpon>addsup.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\addSupplaers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\addSupplaers.Designer.cs">
+      <DependentUpon>addSupplaers.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\employeeMon.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -181,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\addsup.resx">
       <DependentUpon>addsup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\addSupplaers.resx">
+      <DependentUpon>addSupplaers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\employeeMon.resx">
       <DependentUpon>employeeMon.cs</DependentUpon>
