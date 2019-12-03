@@ -120,3 +120,5 @@ C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\aqellproject\ProjectAq
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\aqellproject\ProjectAqeel\projectAqeeel\bin\Debug\stdole.dll
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.ForInvoice.resources
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.managesells.resources
+C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.manageEmployees.resources
+C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.managematrialmony.resources

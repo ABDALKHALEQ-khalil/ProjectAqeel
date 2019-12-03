@@ -22,13 +22,16 @@ namespace projectAqeeel.PL
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+            if (textBox2.Text.Length >0)
             dataGridView2.DataSource= inv.SearchCustomer(textBox2.Text);
 
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = inv.SearchInvocie(Convert.ToInt32(textBox1.Text));
+            if (textBox1.Text.Length > 0)
+
+                dataGridView1.DataSource = inv.SearchInvocie(Convert.ToInt32(textBox1.Text));
         }
     }
 }

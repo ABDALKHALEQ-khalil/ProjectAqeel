@@ -57,10 +57,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.manageEmployees1 = new projectAqeeel.PL.manageEmployees();
+            this.managesells1 = new projectAqeeel.PL.managesells();
             this.invoice1 = new projectAqeeel.PL.Invoice();
             this.indexWelcome1 = new projectAqeeel.PL.IndexWelcome();
             this.employees1 = new projectAqeeel.PL.Employees();
-            this.managesells1 = new projectAqeeel.PL.managesells();
+            this.managematrialmony1 = new projectAqeeel.PL.managematrialmony();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -251,12 +253,14 @@
             this.إدارةالموظفينToolStripMenuItem.Name = "إدارةالموظفينToolStripMenuItem";
             this.إدارةالموظفينToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.إدارةالموظفينToolStripMenuItem.Text = "إدارة الموظفين ";
+            this.إدارةالموظفينToolStripMenuItem.Click += new System.EventHandler(this.إدارةالموظفينToolStripMenuItem_Click);
             // 
             // إدارةالمواردالماليةToolStripMenuItem
             // 
             this.إدارةالمواردالماليةToolStripMenuItem.Name = "إدارةالمواردالماليةToolStripMenuItem";
             this.إدارةالمواردالماليةToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.إدارةالمواردالماليةToolStripMenuItem.Text = "إدارة الموارد المالية";
+            this.إدارةالمواردالماليةToolStripMenuItem.Click += new System.EventHandler(this.إدارةالمواردالماليةToolStripMenuItem_Click);
             // 
             // إدارةالمخازنToolStripMenuItem
             // 
@@ -278,6 +282,8 @@
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.managematrialmony1);
+            this.panel2.Controls.Add(this.manageEmployees1);
             this.panel2.Controls.Add(this.managesells1);
             this.panel2.Controls.Add(this.invoice1);
             this.panel2.Controls.Add(this.indexWelcome1);
@@ -299,6 +305,22 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // manageEmployees1
+            // 
+            this.manageEmployees1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.manageEmployees1.Location = new System.Drawing.Point(0, 0);
+            this.manageEmployees1.Name = "manageEmployees1";
+            this.manageEmployees1.Size = new System.Drawing.Size(870, 415);
+            this.manageEmployees1.TabIndex = 6;
+            // 
+            // managesells1
+            // 
+            this.managesells1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.managesells1.Location = new System.Drawing.Point(0, 0);
+            this.managesells1.Name = "managesells1";
+            this.managesells1.Size = new System.Drawing.Size(870, 415);
+            this.managesells1.TabIndex = 5;
             // 
             // invoice1
             // 
@@ -329,13 +351,13 @@
             this.employees1.Size = new System.Drawing.Size(870, 415);
             this.employees1.TabIndex = 1;
             // 
-            // managesells1
+            // managematrialmony1
             // 
-            this.managesells1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.managesells1.Location = new System.Drawing.Point(0, 0);
-            this.managesells1.Name = "managesells1";
-            this.managesells1.Size = new System.Drawing.Size(870, 415);
-            this.managesells1.TabIndex = 5;
+            this.managematrialmony1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.managematrialmony1.Location = new System.Drawing.Point(0, 0);
+            this.managematrialmony1.Name = "managematrialmony1";
+            this.managematrialmony1.Size = new System.Drawing.Size(870, 415);
+            this.managematrialmony1.TabIndex = 7;
             // 
             // Index
             // 
@@ -398,5 +420,7 @@
         private System.Windows.Forms.ToolStripMenuItem إدارةالمخازنToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem مردوداتToolStripMenuItem;
         private managesells managesells1;
+        private manageEmployees manageEmployees1;
+        private managematrialmony managematrialmony1;
     }
 }

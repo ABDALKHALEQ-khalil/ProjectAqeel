@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Code\Customers.cs" />
+    <Compile Include="Code\Employees.cs" />
     <Compile Include="Code\Invoice.cs" />
     <Compile Include="Code\Login.cs" />
     <Compile Include="Code\UserInfo.cs" />
@@ -124,6 +125,18 @@
     <Compile Include="PL\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\manageEmployees.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\manageEmployees.Designer.cs">
+      <DependentUpon>manageEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\managematrialmony.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\managematrialmony.Designer.cs">
+      <DependentUpon>managematrialmony.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\managesells.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -188,6 +201,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manageEmployees.resx">
+      <DependentUpon>manageEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\managematrialmony.resx">
+      <DependentUpon>managematrialmony.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\managesells.resx">
       <DependentUpon>managesells.cs</DependentUpon>

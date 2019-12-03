@@ -100,5 +100,15 @@ namespace projectAqeeel.PL
         {
             managesells1.BringToFront();
         }
+
+        private void إدارةالموظفينToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            manageEmployees1.BringToFront();
+        }
+
+        private void إدارةالمواردالماليةToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            managematrialmony1.BringToFront();
+        }
     }
 }
