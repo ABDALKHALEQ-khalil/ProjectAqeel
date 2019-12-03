@@ -94,6 +94,12 @@
     <Compile Include="PL\Employees.Designer.cs">
       <DependentUpon>Employees.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\ForInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\ForInvoice.Designer.cs">
+      <DependentUpon>ForInvoice.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,12 +123,6 @@
     </Compile>
     <Compile Include="PL\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PL\Storage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="PL\Storage.Designer.cs">
-      <DependentUpon>Storage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -168,6 +168,9 @@
     <EmbeddedResource Include="PL\Employees.resx">
       <DependentUpon>Employees.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\ForInvoice.resx">
+      <DependentUpon>ForInvoice.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
@@ -179,9 +182,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PL\Storage.resx">
-      <DependentUpon>Storage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

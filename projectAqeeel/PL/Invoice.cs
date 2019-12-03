@@ -17,34 +17,65 @@ namespace projectAqeeel.PL
         public Invoice()
         {
             InitializeComponent();
-            this.dataGridView1.DataSource = invoice.GetAllCustomer();
+            
         }
 
         private void Invoice_Load(object sender, EventArgs e)
         {
-            panel1.Enabled = false;
+           // panel1.Enabled = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            panel1.Enabled = true;
-            addInvoice3.textBox1.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            //panel1.Enabled = true;
+            //addInvoice3.textBox1.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+
+            ForInvoice FI = new ForInvoice();
+
+            FI.Show();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
-            dt=invoice.SearchCustomer(textBox1.Text);
-            this.dataGridView1.DataSource = dt;
+            if (textBox1.Text.Length < 1)
+            {
+                this.dataGridView1.DataSource = invoice.GetAllCustomer();
+            }
+            else
+            {
+                DataTable dt = new DataTable();
+                dt = invoice.SearchCustomer(textBox1.Text);
+                this.dataGridView1.DataSource = dt;
+            }
         }
 
+        public void datagrid (bool type )
+        {
+            if (type  )
+            {
+                this.dataGridView1.DataSource = invoice.GetAllCustomer();
+
+            }
+            else
+            {
+                this.dataGridView1.DataSource = invoice.
+            }
+
+        }
         private void button4_Click(object sender, EventArgs e)
         {
             addCoustmer frm = new addCoustmer();
             frm.Show();
+            
+            
         }
 
         private void addInvoice3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

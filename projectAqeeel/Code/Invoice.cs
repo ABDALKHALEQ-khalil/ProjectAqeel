@@ -25,6 +25,17 @@ namespace projectAqeeel.Code
             return dt;
         }
         
+        public DataTable SelectGoods(string name)
+        {
+            dal.Open();
+            DataTable dt = new DataTable();
+            SqlParameter[] param = new SqlParameter[1];
+            param[0] = new SqlParameter("@Good", SqlDbType.NVarChar, 50);
+            param[0].Value = name;
+            dt = dal.SelectData("selectGoods", param);
+            dal.Close();
+            return dt;
+        }
 
         public DataTable SearchCustomer(string name)
         {

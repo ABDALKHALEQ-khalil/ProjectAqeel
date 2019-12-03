@@ -36,6 +36,8 @@ namespace projectAqeeel.PL
 
         private void إضافةفاتورهToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+
+            invoice1.label1.Text = "اسم العميل "; 
             invoice1.BringToFront();
         }
 
@@ -75,7 +77,8 @@ namespace projectAqeeel.PL
 
         private void اضافةمنتجToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            storage1.BringToFront();
+            invoice1.label1.Text = "اسم المورد ";
+            invoice1.BringToFront();
         }
 
         private void storage1_Load(object sender, EventArgs e)
@@ -86,6 +89,11 @@ namespace projectAqeeel.PL
         private void Index_Load(object sender, EventArgs e)
         {
             indexWelcome1.BringToFront();
+        }
+
+        private void invoice1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -25,8 +25,11 @@ namespace projectAqeeel.PL
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             Cus.CustomerIsHere(textBox1.Text);
-            Cus.addCustomer(textBox1.Text,Double.Parse(maskedTextBox1.Text), textBox3.Text);   
+            Cus.addCustomer(textBox1.Text,Double.Parse(maskedTextBox1.Text), textBox3.Text);
+            MessageBox.Show("تم اضافة عميل بنجاح" , "OK" , MessageBoxButtons.OK , MessageBoxIcon.Information);
+            this.Close();
         }
     }
 }

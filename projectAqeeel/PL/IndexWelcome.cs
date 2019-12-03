@@ -45,5 +45,15 @@ namespace projectAqeeel.PL
             Reports.PrintInvoiceSuppliers frm = new Reports.PrintInvoiceSuppliers();
             frm.Show();
         }
+
+        private void IndexWelcome_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
