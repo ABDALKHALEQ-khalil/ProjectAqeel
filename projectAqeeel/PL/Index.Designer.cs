@@ -56,13 +56,13 @@
             this.إدارةالمخازنToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.managematrialmony1 = new projectAqeeel.PL.managematrialmony();
             this.manageEmployees1 = new projectAqeeel.PL.manageEmployees();
             this.managesells1 = new projectAqeeel.PL.managesells();
             this.invoice1 = new projectAqeeel.PL.Invoice();
             this.indexWelcome1 = new projectAqeeel.PL.IndexWelcome();
             this.employees1 = new projectAqeeel.PL.Employees();
-            this.managematrialmony1 = new projectAqeeel.PL.managematrialmony();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -293,18 +293,14 @@
             this.panel2.Size = new System.Drawing.Size(870, 415);
             this.panel2.TabIndex = 3;
             // 
-            // pictureBox1
+            // managematrialmony1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox1.Image = global::projectAqeeel.Properties.Resources.Exit;
-            this.pictureBox1.Location = new System.Drawing.Point(838, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 24);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.managematrialmony1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.managematrialmony1.Location = new System.Drawing.Point(0, 0);
+            this.managematrialmony1.Name = "managematrialmony1";
+            this.managematrialmony1.Size = new System.Drawing.Size(870, 415);
+            this.managematrialmony1.TabIndex = 7;
+            this.managematrialmony1.Load += new System.EventHandler(this.managematrialmony1_Load);
             // 
             // manageEmployees1
             // 
@@ -351,13 +347,18 @@
             this.employees1.Size = new System.Drawing.Size(870, 415);
             this.employees1.TabIndex = 1;
             // 
-            // managematrialmony1
+            // pictureBox1
             // 
-            this.managematrialmony1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.managematrialmony1.Location = new System.Drawing.Point(0, 0);
-            this.managematrialmony1.Name = "managematrialmony1";
-            this.managematrialmony1.Size = new System.Drawing.Size(870, 415);
-            this.managematrialmony1.TabIndex = 7;
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox1.Image = global::projectAqeeel.Properties.Resources.Exit;
+            this.pictureBox1.Location = new System.Drawing.Point(838, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 24);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Index
             // 

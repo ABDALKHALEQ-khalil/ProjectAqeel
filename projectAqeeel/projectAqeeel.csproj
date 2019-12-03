@@ -57,6 +57,7 @@
     <Compile Include="Code\Employees.cs" />
     <Compile Include="Code\Invoice.cs" />
     <Compile Include="Code\Login.cs" />
+    <Compile Include="Code\supplers.cs" />
     <Compile Include="Code\UserInfo.cs" />
     <Compile Include="DAL\DataAccessLayer.cs" />
     <Compile Include="PL\addCoustmer.cs">

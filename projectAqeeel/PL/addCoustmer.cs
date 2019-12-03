@@ -27,7 +27,7 @@ namespace projectAqeeel.PL
         {
 
             Cus.CustomerIsHere(textBox1.Text);
-            Cus.addCustomer(textBox1.Text,Double.Parse(maskedTextBox1.Text), textBox3.Text);
+            Cus.addCustomer(textBox1.Text,int.Parse(maskedTextBox1.Text), textBox3.Text);
             MessageBox.Show("تم اضافة عميل بنجاح" , "OK" , MessageBoxButtons.OK , MessageBoxIcon.Information);
             this.Close();
         }

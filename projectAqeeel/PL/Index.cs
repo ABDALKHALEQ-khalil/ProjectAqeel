@@ -110,5 +110,10 @@ namespace projectAqeeel.PL
         {
             managematrialmony1.BringToFront();
         }
+
+        private void managematrialmony1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
