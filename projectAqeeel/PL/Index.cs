@@ -95,5 +95,10 @@ namespace projectAqeeel.PL
         {
 
         }
+
+        private void إدارةالمبيعاتToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

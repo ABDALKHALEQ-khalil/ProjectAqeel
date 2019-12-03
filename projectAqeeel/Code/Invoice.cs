@@ -15,7 +15,21 @@ namespace projectAqeeel.Code
             {
                 
             }
+        public DataTable SearchInvocie (int search)
+        {
+        
+            dal.Open();
+            SqlParameter[] param = new SqlParameter[1];
 
+            param[0] = new SqlParameter("@search", SqlDbType.Int, 50);
+            param[0].Value = search;
+            DataTable dt = new DataTable();
+
+            dt = dal.SelectData("SearchInvocie", param);
+            return dt;
+        
+
+    }
         public DataTable GetAllCustomer ()
         {
             dal.Open();

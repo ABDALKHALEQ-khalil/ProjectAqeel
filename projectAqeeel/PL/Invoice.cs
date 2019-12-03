@@ -58,7 +58,7 @@ namespace projectAqeeel.PL
             }
             else
             {
-                this.dataGridView1.DataSource = invoice.
+                // this.dataGridView1.DataSource = invoice.
             }
 
         }

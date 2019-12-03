@@ -30,14 +30,12 @@ C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectA
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.IndexWelcome.resources
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.Invoice.resources
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.Login.resources
-C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.Storage.resources
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.Properties.Resources.resources
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.Reports.invoice.resources
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.Reports.PrintInvoiceSuppliers.resources
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.csproj.GenerateResource.Cache
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.exe
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.pdb
-C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.csprojResolveAssemblyReference.cache
 C:\Users\Dev.alaa\Documents\Visual Studio 2017\Projects\ProjectAqeel\projectAqeeel\bin\Debug\projectAqeeel.exe.config
 C:\Users\Dev.alaa\Documents\Visual Studio 2017\Projects\ProjectAqeel\projectAqeeel\bin\Debug\projectAqeeel.exe
 C:\Users\Dev.alaa\Documents\Visual Studio 2017\Projects\ProjectAqeel\projectAqeeel\bin\Debug\projectAqeeel.pdb
@@ -120,3 +118,5 @@ C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\aqellproject\ProjectAq
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\aqellproject\ProjectAqeel\projectAqeeel\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\aqellproject\ProjectAqeel\projectAqeeel\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\aqellproject\ProjectAqeel\projectAqeeel\bin\Debug\stdole.dll
+C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.ForInvoice.resources
+C:\Users\Eng.AbOoOd\Documents\Visual Studio 2015\Projects\projectAqeeel\projectAqeeel\obj\Debug\projectAqeeel.PL.managesells.resources
